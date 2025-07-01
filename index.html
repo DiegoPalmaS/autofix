@@ -49,7 +49,7 @@
 <h3>Solicitar Reparación</h3>
 <form>
     <div class="mb-3">
-        <label for="name" class="form-label">Nombre del Cliente</label>
+        <label for="name" class="form-label">Nombre del Cliente></label>
         <input type="text" class="form-control" id="name" required>
     </div>
     <div class="mb-3">
@@ -60,6 +60,7 @@
             <option value="brake_check">Revisión de Frenos</option>
             <option value="electrical_diagnosis">Diagnóstico Eléctrico</option>
         </select>
+    </div>
     <div class="mb-3">
         <label for="description" class="form-label">Descripción</label>
         <textarea class="form-control" id="description" rows="3" required></textarea>
@@ -68,9 +69,9 @@
         <label for="appointment_date" class="form-label">Agendar Cita</label>
         <input type="date" class="form-control" id="appointment_date" required>
     </div>
-<h3>Información de Pago</h3>
+    <h3>Información de Pago</h3>
     <div class="mb-3">
-        <label for="payment_number" class="form-label">Número de Tarjeta</label>
+        <label for="payment_number" class="form-label" placeholder="123-4567-890">Número de Tarjeta</label>
         <input type="text" class="form-control" id="payment_number" required>
     </div>
     <div class="mb-3">
@@ -82,6 +83,7 @@
         <input type="text" class="form-control" id="payment_cvv" required>
     </div>
     <button type="submit" class="btn btn-success">Confirmar Solicitud</button>
+</form>
 </section>
 
 </body>
